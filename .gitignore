@@ -1,0 +1,46 @@
+# Oracle APEX project files
+*.log
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
+*~
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+config/local.*
+
+# Database connection and client files
+tnsnames.ora
+sqlnet.ora
+wallet/
+wallets/
+*.wallet
+*.jks
+
+# Local exports, backups, and generated artifacts
+*.zip
+*.7z
+*.rar
+*.dmp
+*.trc
+*.trm
+
+# Keep intentional project assets and scripts tracked.
+# Do not ignore *.sql globally: APEX exports and database scripts belong in Git.
